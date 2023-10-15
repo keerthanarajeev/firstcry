@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Croissant+One&family=Dosis:wght@200;300;400;500&family=Indie+Flower&family=Inter:wght@300;400;500&family=Josefin+Sans:wght@100;200&family=Merienda&family=Passion+One:wght@400;700;900&family=Poppins:wght@200&family=Roboto+Slab:wght@300;400;500;600&family=Satisfy&family=Source+Code+Pro:ital,wght@1,200;1,300&family=Teko:wght@400;500;600;700&display=swap');
+
+
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+}
+form input .form-control
+{
+    width: 900px;
+}
+.navbar img{
+    width: 10%;
+}
+.navbar .inputform
+{
+    margin-left: 1%;
+}
+.navbar .inputform input
+{
+    width: 200%;
+    display: block;
+    border: none;
+ 
+    
+}
+.navbar .inputform
+{
+    display: flex;
+    background-color:white;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 25%;
+}
+.navbar .inputform span
+{
+    padding-top: 6px;
+    padding-right: 9px;
+    
+}
+input::placeholder {
+   font-size: 13px;
+   color: black;
+   
+  }
+.navbar ul a{
+    font-size: 12px;
+    font-weight: 490;
+}
+.vl
+{
+    height: 16px;
+    border-left: 1px solid black;
+    margin-top: 7px;
+}
+.header
+{
+    font-size: 13px;
+    column-gap: -2px;
+    
+}
+.header a
+{
+    text-decoration: none;
+    color: black;
+}
+.header .col
+{
+    padding-left: 2px;
+    padding-top: 10px;
+}
+.premium .boutiques a
+{
+    text-decoration: none;
+    color: black;
+}
+.products
+{
+    padding: 10px;
+}
+.products li
+{
+list-style-type: none;
+font-size: 14px;
+}
+
+
+
+.footerhead
+{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 33%;
+    margin-top: 10%;
+ 
+
+}
+.footer
+{
+    background-color: rgb(206, 228, 236);
+    margin-top: 4%;
+    
+}
+.footer i
+{
+    font-size: 32px;
+}
+.footer li
+{
+    list-style: none;
+}
+.footer a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .footer-content h6
+{
+    font-size: 14px;
+}
+
+
+
+
+
+/* Responsive */
+
+
+@media (max-width: 600px)
+{
+    .navbar .vl{display: none;}
+    .header{font-size: 12px;}
+    #filter{display: none;}
+    .footer i,p{font-size: 12px;}
+}
